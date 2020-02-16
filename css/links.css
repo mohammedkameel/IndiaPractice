@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Playfair+Display&display=swap');
+
+#linksHeader{
+    text-align: center;
+    color: #1287A5;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Lora', serif;
+    margin-top: 25px;
+}
+
+
+#buttonGrid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 2px;
+   text-align: center;
+   margin-top: 5vh;
+   padding-top: 3vh;
+}
+
+.buttons{
+    height: 15vh;
+}
+
+.btnStyle{
+    width: 50%;
+}
+
+
+/* theme css */
+
+#theme{
+    height: 23px;
+    width: 50px;
+    margin-top: 5px;
+    margin-right: 20px;
+    background-color: #3b3b3b;
+    border-radius: 50px;
+    float: right;
+    
+}
+
+#toggle{
+    height: 23px;
+    width: 23px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+#theme:hover{
+    cursor: pointer;
+}
+
+
